@@ -1,3 +1,12 @@
+// NOTE: this test uses multiple font files of different sizes and produces a
+// large binary. To deploy it to stock ESP32, you might need to use a
+// non-standard partition table, e.g. huge_app.csv:
+// https://github.com/espressif/arduino-esp32/blob/master/tools/partitions/huge_app.csv
+
+// See
+// https://docs.platformio.org/en/latest/platforms/espressif32.html#partition-tables
+// for details.
+
 #include "Arduino.h"
 
 #ifdef ROO_TESTING
