@@ -28,6 +28,6 @@
         "examples/**/*.ino"
     ],
     "dependencies": {
-        "dejwk/roo_display": ">=3.0.0"
+        "dejwk/roo_display": ">=3.0.1"
     }
 }
