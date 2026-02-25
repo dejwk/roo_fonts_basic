@@ -2,7 +2,7 @@
     "name": "roo_fonts_basic",
     "description": "Collection of Noto fonts for use with dejwk/roo_display (http://github.com/dejwk/roo_display).",
     "keywords": [
-        "display",
+        "display"
     ],
     "authors": [
         {
