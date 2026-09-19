@@ -1,3 +1,12 @@
+# roo_fonts_basic 1.0.5
+
+- Updated `roo_display` to 3.3.0 in Bazel and raised the PlatformIO minimum requirement to 3.3.0.
+- Updated Bazel dependencies to `rules_cc` 0.2.25 and `roo_testing` 2.1.2.
+- Updated the shared CI workflow to `roo_testing` 2.1.2.
+- Added consolidated release notes for previous versions.
+
+---
+
 # [roo_fonts_basic 1.0.4](https://github.com/dejwk/roo_fonts_basic/releases/tag/1.0.4)
 
 Published 2026-08-30.
