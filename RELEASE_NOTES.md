@@ -1,3 +1,12 @@
+# roo_fonts_basic 1.0.6
+
+- Fixed an off-by-one line-gap error in Noto Serif Bold, Bold Italic, Condensed, and Condensed Italic at size 12, and Condensed Italic at size 40.
+- Updated `roo_display` to 3.3.2 in Bazel and raised the PlatformIO minimum requirement to 3.3.2.
+- Updated the Bazel `roo_testing` dependency to 2.3.1.
+- Updated testing helpers with an ESP-IDF ESP32 profile, automatic frontend selection for ESP-IDF example runs, and a script to test both Arduino and ESP-IDF profiles.
+
+---
+
 # roo_fonts_basic 1.0.5
 
 - Updated `roo_display` to 3.3.0 in Bazel and raised the PlatformIO minimum requirement to 3.3.0.
