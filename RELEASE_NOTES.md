@@ -1,3 +1,12 @@
+# roo_fonts_basic 1.1.0
+
+- Fixed Arduino dependency discovery by adding top-level `roo_display` includes to the font library and a `roo_backport` include to the font catalog example.
+- Updated `roo_display` to 3.5.0 in Bazel and raised the PlatformIO minimum to 3.5.0.
+- Updated `roo_testing` to 2.7.1 in Bazel and the shared CI workflow to 2.7.0. CI now selects the `arduino_esp32` profile explicitly.
+- Added host-emulation configurations for ESP32-S3 and ESP32-C3 with Arduino and ESP-IDF, and for RP2040 with the Pico SDK or Arduino with or without FreeRTOS. Updated the Bazel wrapper to recognize Pico profiles and expanded the local test script to target nine profiles.
+
+---
+
 # roo_fonts_basic 1.0.6
 
 - Fixed an off-by-one line-gap error in Noto Serif Bold, Bold Italic, Condensed, and Condensed Italic at size 12, and Condensed Italic at size 40.
